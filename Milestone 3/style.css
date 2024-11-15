@@ -1,0 +1,85 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f9fa; /* Changed background to light grey */
+}
+
+form {
+    margin: auto;
+    background-color: #ffe4e1; /* Light coral */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Softer shadow */
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Dark grey */
+}
+
+fieldset {
+    border: 2px solid #ff7f50; /* Coral border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff8dc; /* Cornsilk background */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #8b0000; /* Dark red */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #4b0082; /* Indigo text */
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #ff6347; /* Tomato border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #4682b4; /* Steel blue */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Softer shadow */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f9ea0; /* Cadet blue on hover */
+    color: #000080; /* Navy blue text on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #4682b4; /* Steel blue border */
+    border-radius: 8px;
+    background-color: #f5f5dc; /* Beige background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Softer shadow */
+}
+
+#resume-display h2 {
+    color: #8b0000; /* Dark red */
+}
